@@ -14,12 +14,11 @@
   ],
   "dependencies": {
     "bell": "2.x.x",
-    "boom": "^2.8.0",
-    "hapi": "^8.6.1",
-    "hapi-auth-cookie": "^3.0.1",
-    "hapi-require-https": "^2.0.0",
-    "hoek": "^2.14.0",
-    "joi": "^6.4.3",
-    "promise": "^7.0.3"
+    "boom": "2.x.x",
+    "hapi-auth-cookie": "3.x.x",
+    "hapi-require-https": "2.x.x",
+    "hoek": "2.x.x",
+    "joi": "6.x.x",
+    "promise": "7.x.x"
   }
 }
