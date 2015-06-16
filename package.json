@@ -1,0 +1,25 @@
+{
+  "name": "Clapper",
+  "version": "1.0.0",
+  "description": "Third-party acl plugin for hapi bell",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Ho-Fan Kang <me@hofan41.com> (http://www.hofan41.com)",
+  "licenses": [
+    {
+      "type": "BSD"
+    }
+  ],
+  "dependencies": {
+    "bell": "^4.0.0",
+    "boom": "^2.8.0",
+    "hapi": "^8.6.1",
+    "hapi-auth-cookie": "^3.0.1",
+    "hapi-require-https": "^2.0.0",
+    "hoek": "^2.14.0",
+    "joi": "^6.4.3",
+    "promise": "^7.0.3"
+  }
+}
