@@ -82,11 +82,11 @@ function (err) {
 - `defaultRights` - an object containing the following:
     - `anonymous` - an object containing boolean properties representing an anonymous user's rights granted by default.
     - `authenticated` - an object containing boolean properties representing an authenticated user's rights granted by default.
-- `cookie` - an object containing the hapi-auth-cookie strategy options used by **clapper**
-- `logins` - an array containing the one or more of the object defined below:
+- `cookie` - an object containing the [hapi-auth-cookie strategy options](https://github.com/hapijs/hapi-auth-cookie#hapi-auth-cookie) used by **clapper**
+- `logins` - an array containing at least one instance of the object defined below:
     - `displayName` - a string representing the name of the authentication provider as displayed to the user
     - `routeName` - a unique string representing the name of the route to be created by **clapper** for authentication with the specified OAuth provider
-    - `bellProvider` - an object containing the bell authentication strategy options used by **clapper**
+    - `bellProvider` - an object containing the [bell authentication strategy options](https://github.com/hapijs/bell#options) used by **clapper**
     - `additionalRights` - **optional** an object containing boolean properties representing additional rights granted to any authenticated users using this specific authentication provider
     - `plugins` - **optional** an array of objects where each one is either:
         - a plugin registration function
