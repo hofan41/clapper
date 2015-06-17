@@ -12,7 +12,7 @@ Lead Maintainer: [Ho-Fan Kang](https://github.com/hofan41)
 **clapper** was designed to be fully functional via configuration.
 
 **clapper** works by adding a global pre-handler on all incoming server requests. This handler function is used to determine whether or not 
-the user can do so by examining their access rights and the route's access pre-requisites.
+the user can proceed so by examining their access rights and the route's access pre-requisites.
 
 ```javascript
 var Hapi = require('hapi');
