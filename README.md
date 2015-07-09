@@ -20,6 +20,16 @@ var server = new Hapi.Server();
 
 server.connection({ port: 8000 });
 
+// Views manager required to handle errors
+server.views({
+    engines: {
+        html: require("handlebars")
+    },
+    relativeTo: __dirname,
+    path: "templates",
+    //helpersPath: "helpers"
+});
+
 // Register clapper with the server.
 // This example adds facebook as one of the login providers.
 server.register({ 
