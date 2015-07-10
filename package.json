@@ -21,5 +21,8 @@
     "hoek": "2.x.x",
     "joi": "6.x.x",
     "promise": "7.x.x"
+  },
+  "devDependencies": {
+    "hapi": "8.x.x"
   }
 }
