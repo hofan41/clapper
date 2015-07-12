@@ -1,6 +1,6 @@
 {
   "name": "clapper",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "repository": "git://github.com/hofan41/clapper",
   "description": "Third-party acl plugin for hapi bell",
   "main": "index.js",
